@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee , faShoppingCart} from '@fortawesome/free-solid-svg-icons';
+import { faCoffee , faShoppingCart, faBorderNone} from '@fortawesome/free-solid-svg-icons';
 import './Product.css';
 
 const Product = (props) => {
@@ -24,3 +24,5 @@ const Product = (props) => {
 };
 
 export default Product;
+
+
